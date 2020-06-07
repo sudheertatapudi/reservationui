@@ -4,8 +4,8 @@ import { searchTrain } from "../../actions/index";
 
 function mapDispatchToProps(dispatch) {
   return {
-    trainsearch: (fromstation, tostation) =>
-      dispatch(searchTrain(fromstation, tostation)),
+    trainsearch: (fromstation, tostation, traveldate) =>
+      dispatch(searchTrain(fromstation, tostation, traveldate)),
   };
 }
 
@@ -13,7 +13,7 @@ class trainsearchConnect extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { fromstation: "", tostation: "" };
+    this.state = { fromstation: "", tostation: "", traveldate: "" };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
 
@@ -25,15 +25,16 @@ class trainsearchConnect extends Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    const { fromstation, tostation } = this.state;
+    const { fromstation, tostation , traveldate} = this.state;
     console.log(fromstation);
     console.log(tostation);
-    this.props.trainsearch({ fromstation }, { tostation });
-    this.setState({ fromstation: "", tostation: "" });
+    console.log(traveldate);
+    this.props.trainsearch({ fromstation }, { tostation } , { traveldate });
+    this.setState({ fromstation: "", tostation: "" , traveldate:"" });
   }
 
   render() {
-    const { fromstation, tostation } = this.state;
+    const { fromstation, tostation, traveldate } = this.state;
     return (
       <div className="container">
         <form className="form-inline" onSubmit={this.handleSubmit}>
@@ -63,6 +64,20 @@ class trainsearchConnect extends Component {
               onChange={this.handleChange}
               placeholder="Enter To station"
             ></input>
+          </div>
+
+          <div className="form-group">
+          <label htmlFor="traveldate">Travel Date:</label>
+          <input 
+            className="form-control"
+            required 
+            type="date" 
+            name="traveldate" 
+            id="traveldate"
+            value={traveldate}
+            onChange={this.handleChange} 
+            >
+          </input>
           </div>
 
           <button type="submit" className="btn btn-primary">
