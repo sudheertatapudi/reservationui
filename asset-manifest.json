@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/reservationui/static/css/main.5f361e03.chunk.css",
+    "main.js": "/reservationui/static/js/main.b6a92bef.chunk.js",
+    "main.js.map": "/reservationui/static/js/main.b6a92bef.chunk.js.map",
+    "runtime-main.js": "/reservationui/static/js/runtime-main.c6bfa37b.js",
+    "runtime-main.js.map": "/reservationui/static/js/runtime-main.c6bfa37b.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/reservationui/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.5e82237f.chunk.js": "/reservationui/static/js/2.5e82237f.chunk.js",
+    "static/js/2.5e82237f.chunk.js.map": "/reservationui/static/js/2.5e82237f.chunk.js.map",
+    "index.html": "/reservationui/index.html",
+    "precache-manifest.621100b1292ef33a086971d9516c053e.js": "/reservationui/precache-manifest.621100b1292ef33a086971d9516c053e.js",
+    "service-worker.js": "/reservationui/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/reservationui/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/reservationui/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.5e82237f.chunk.js.LICENSE.txt": "/reservationui/static/js/2.5e82237f.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/reservationui/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6bfa37b.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.5e82237f.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.b6a92bef.chunk.js"
+  ]
+}
