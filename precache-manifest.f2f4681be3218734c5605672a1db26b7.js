@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25a75cf53f047392c3f58cecca04ce11",
+    "revision": "1f5e66959a506a8ded47f4a63be1df96",
     "url": "/reservationui/index.html"
   },
   {
-    "revision": "bc62deacbb23ae0e5464",
+    "revision": "defc39c62771bcfd5a5d",
     "url": "/reservationui/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "c5c5d153f34b75081937",
+    "revision": "273b8dda9aa0ff539f15",
     "url": "/reservationui/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "bc62deacbb23ae0e5464",
-    "url": "/reservationui/static/js/2.5e82237f.chunk.js"
+    "revision": "defc39c62771bcfd5a5d",
+    "url": "/reservationui/static/js/2.fbe0061e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/reservationui/static/js/2.5e82237f.chunk.js.LICENSE.txt"
+    "url": "/reservationui/static/js/2.fbe0061e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c5c5d153f34b75081937",
-    "url": "/reservationui/static/js/main.57206416.chunk.js"
+    "revision": "273b8dda9aa0ff539f15",
+    "url": "/reservationui/static/js/main.4dab2490.chunk.js"
   },
   {
     "revision": "d4178bf7bad89da5fefa",
