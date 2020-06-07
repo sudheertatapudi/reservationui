@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reservationui/static/css/main.5f361e03.chunk.css",
-    "main.js": "/reservationui/static/js/main.8dcbd652.chunk.js",
-    "main.js.map": "/reservationui/static/js/main.8dcbd652.chunk.js.map",
+    "main.js": "/reservationui/static/js/main.895faa7b.chunk.js",
+    "main.js.map": "/reservationui/static/js/main.895faa7b.chunk.js.map",
     "runtime-main.js": "/reservationui/static/js/runtime-main.c6bfa37b.js",
     "runtime-main.js.map": "/reservationui/static/js/runtime-main.c6bfa37b.js.map",
     "static/css/2.af3c1da9.chunk.css": "/reservationui/static/css/2.af3c1da9.chunk.css",
     "static/js/2.9f6fb22b.chunk.js": "/reservationui/static/js/2.9f6fb22b.chunk.js",
     "static/js/2.9f6fb22b.chunk.js.map": "/reservationui/static/js/2.9f6fb22b.chunk.js.map",
     "index.html": "/reservationui/index.html",
-    "precache-manifest.b6c7d91a9df2bbad94fc31f009d688c6.js": "/reservationui/precache-manifest.b6c7d91a9df2bbad94fc31f009d688c6.js",
+    "precache-manifest.94bf350b7803eed442c1c3861c40b8ae.js": "/reservationui/precache-manifest.94bf350b7803eed442c1c3861c40b8ae.js",
     "service-worker.js": "/reservationui/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/reservationui/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/reservationui/static/css/main.5f361e03.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.9f6fb22b.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.8dcbd652.chunk.js"
+    "static/js/main.895faa7b.chunk.js"
   ]
 }
