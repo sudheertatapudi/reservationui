@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/reservationui/precache-manifest.94bf350b7803eed442c1c3861c40b8ae.js"
+  "/reservationui/precache-manifest.86ccff173e431c42a0b4425a1867df6b.js"
 );
 
 self.addEventListener('message', (event) => {
