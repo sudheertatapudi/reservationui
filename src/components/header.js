@@ -1,11 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom"
+
 
 export default function () {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-      <a href="/" className="navbar-brand">
+      <Link to="/" className="navbar-brand">
         Reservation
-      </a>
+      </Link>
       <button
         type="button"
         className="navbar-toggler"
@@ -18,19 +20,19 @@ export default function () {
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a href="/" className="nav-link active">
+            <Link to="/" className="nav-link active">
               Trains
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="/flights" className="nav-link">
+            <Link to="/flights" className="nav-link">
               Flights
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="/buses" className="nav-link">
+            <Link to="/buses" className="nav-link">
               Buses
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
