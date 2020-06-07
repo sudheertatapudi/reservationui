@@ -1,0 +1,1 @@
+export const TRAIN_SEARCH = "TRAIN_SEARCH";
