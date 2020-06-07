@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header";
 import Trainlist from "./components/trains/trainlist";
 import Trainsearch from "./components/trains/trainsearch";
+import BookTicket from "./components/trains/bookticket";
 import FlightSearch from "./components/flights/flightsearch";
 import BusSearch from "./components/buses/bussearch";
 import store from "./store/index";
@@ -26,10 +27,11 @@ function App() {
             <Route exact path="/" component={Trainsearch} />
             <Route exact path="/flights" component={FlightSearch} />
             <Route exact path="/buses" component={BusSearch} />
+            <Route exact path="/bookticket/:trainnumber/:trainname/:traveldate" component={BookTicket} />
           </Switch>
 
         </div>
-        
+
       </div>
       </Router>
     </Provider>
