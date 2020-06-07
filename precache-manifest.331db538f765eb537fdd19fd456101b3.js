@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f18a53001db1f2e1d6b0929706163d95",
+    "revision": "e1bb3d17c06d8c86caf89e7e60efcdc1",
     "url": "/reservationui/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reservationui/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "bd03f6b70cbe1d4e89bf",
+    "revision": "9610aff1ecb7dc33fc20",
     "url": "/reservationui/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reservationui/static/js/2.9f6fb22b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd03f6b70cbe1d4e89bf",
-    "url": "/reservationui/static/js/main.738f0ecf.chunk.js"
+    "revision": "9610aff1ecb7dc33fc20",
+    "url": "/reservationui/static/js/main.aafcfa4e.chunk.js"
   },
   {
     "revision": "d4178bf7bad89da5fefa",
